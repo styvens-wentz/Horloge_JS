@@ -1,0 +1,357 @@
+#horloge {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border: 20px double #888888;
+    border-radius: 200px;
+    margin: 50px;
+}
+
+#centre {
+    position: absolute;
+    background: black;
+    height: 14px;
+    width: 14px;
+    border-radius: 15px;
+    left: 173px;
+    top: 173px;
+}
+
+#heure {
+    position: absolute;
+    height: 80px;
+    width: 0;
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+    left: 177px;
+    top: 100px;
+    transform-origin: bottom;
+}
+
+#minute {
+    position: absolute;
+    height: 120px;
+    width: 0;
+    border-left: 2px rgba(0, 0, 0, 0.8) solid;
+    border-right: 2px rgba(0, 0, 0, 0.8) solid;
+    left: 178px;
+    top: 60px;
+    transform-origin: bottom;
+}
+
+#seconde {
+    position: absolute;
+    height: 170px;
+    width: 0;
+    border-left: 1px rgba(0, 0, 0, 0.65) solid;
+    border-right: 1px rgba(0, 0, 0, 0.65) solid;
+    left: 179px;
+    top: 10px;
+    transform-origin: bottom;
+}
+
+.trait_heure {
+    position: absolute;
+    height: 360px;
+    width: 30px;
+    text-align: center;
+    left: 165px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.chiffre {
+    font-size: 18px;
+    font-family: "Arial Black", serif;
+}
+
+.trait_heure:nth-child(5) {
+    transform: rotate(30deg);
+}
+
+.trait_heure:nth-child(10) {
+    transform: rotate(60deg);
+}
+
+.trait_heure:nth-child(15) {
+    transform: rotate(90deg);
+}
+
+.trait_heure:nth-child(20) {
+    transform: rotate(120deg);
+}
+
+.trait_heure:nth-child(25) {
+    transform: rotate(150deg);
+}
+
+.trait_heure:nth-child(30) {
+    transform: rotate(180deg);
+}
+
+.trait_heure:nth-child(35) {
+    transform: rotate(210deg);
+}
+
+.trait_heure:nth-child(40) {
+    transform: rotate(240deg);
+}
+
+.trait_heure:nth-child(45) {
+    transform: rotate(270deg);
+}
+
+.trait_heure:nth-child(50) {
+    transform: rotate(300deg);
+}
+
+.trait_heure:nth-child(55) {
+    transform: rotate(330deg);
+}
+
+#chiffre_1 {
+    transform: rotate(-30deg);
+}
+
+#chiffre_2 {
+    transform: rotate(-60deg);
+}
+
+#chiffre_3 {
+    transform: rotate(-90deg);
+}
+
+#chiffre_4 {
+    transform: rotate(-120deg);
+}
+
+#chiffre_5 {
+    transform: rotate(-150deg);
+}
+
+#chiffre_6 {
+    transform: rotate(-180deg);
+}
+
+#chiffre_7 {
+    transform: rotate(-210deg);
+}
+
+#chiffre_8 {
+    transform: rotate(-240deg);
+}
+
+#chiffre_9 {
+    transform: rotate(-270deg);
+}
+
+#chiffre_10 {
+    transform: rotate(-300deg);
+}
+
+#chiffre_11 {
+    transform: rotate(-330deg);
+}
+
+.trait_minute {
+    position: absolute;
+    height: 360px;
+    width: 30px;
+    text-align: center;
+    left: 165px;
+    font-size: 10px;
+}
+
+.trait_minute:nth-child(1) {
+     transform: rotate(6deg);
+ }
+
+.trait_minute:nth-child(2) {
+    transform: rotate(12deg);
+}
+
+.trait_minute:nth-child(3) {
+    transform: rotate(18deg);
+}
+
+.trait_minute:nth-child(4) {
+    transform: rotate(24deg);
+}
+
+.trait_minute:nth-child(6) {
+    transform: rotate(36deg);
+}
+
+.trait_minute:nth-child(7) {
+    transform: rotate(42deg);
+}
+
+.trait_minute:nth-child(8) {
+    transform: rotate(48deg);
+}
+
+.trait_minute:nth-child(9) {
+    transform: rotate(54deg);
+}
+
+.trait_minute:nth-child(11) {
+    transform: rotate(66deg);
+}
+
+.trait_minute:nth-child(12) {
+    transform: rotate(72deg);
+}
+
+.trait_minute:nth-child(13) {
+    transform: rotate(78deg);
+}
+
+.trait_minute:nth-child(14) {
+    transform: rotate(84deg);
+}
+
+.trait_minute:nth-child(16) {
+    transform: rotate(96deg);
+}
+
+.trait_minute:nth-child(17) {
+    transform: rotate(102deg);
+}
+
+.trait_minute:nth-child(18) {
+    transform: rotate(108deg);
+}
+
+.trait_minute:nth-child(19) {
+    transform: rotate(114deg);
+}
+
+.trait_minute:nth-child(21) {
+    transform: rotate(126deg);
+}
+
+.trait_minute:nth-child(22) {
+    transform: rotate(132deg);
+}
+
+.trait_minute:nth-child(23) {
+    transform: rotate(138deg);
+}
+
+.trait_minute:nth-child(24) {
+    transform: rotate(144deg);
+}
+
+.trait_minute:nth-child(26) {
+    transform: rotate(156deg);
+}
+
+.trait_minute:nth-child(27) {
+    transform: rotate(162deg);
+}
+
+.trait_minute:nth-child(28) {
+    transform: rotate(168deg);
+}
+
+.trait_minute:nth-child(29) {
+    transform: rotate(174deg);
+}
+
+.trait_minute:nth-child(31) {
+    transform: rotate(186deg);
+}
+
+.trait_minute:nth-child(32) {
+    transform: rotate(192deg);
+}
+
+.trait_minute:nth-child(33) {
+    transform: rotate(198deg);
+}
+
+.trait_minute:nth-child(34) {
+    transform: rotate(204deg);
+}
+
+.trait_minute:nth-child(36) {
+    transform: rotate(216deg);
+}
+
+.trait_minute:nth-child(37) {
+    transform: rotate(222deg);
+}
+
+.trait_minute:nth-child(38) {
+    transform: rotate(228deg);
+}
+
+.trait_minute:nth-child(39) {
+    transform: rotate(234deg);
+}
+
+.trait_minute:nth-child(41) {
+    transform: rotate(246deg);
+}
+
+.trait_minute:nth-child(42) {
+    transform: rotate(252deg);
+}
+
+.trait_minute:nth-child(43) {
+    transform: rotate(258deg);
+}
+
+.trait_minute:nth-child(44) {
+    transform: rotate(264deg);
+}
+
+.trait_minute:nth-child(46) {
+    transform: rotate(276deg);
+}
+
+.trait_minute:nth-child(47) {
+    transform: rotate(282deg);
+}
+
+.trait_minute:nth-child(48) {
+    transform: rotate(288deg);
+}
+
+.trait_minute:nth-child(49) {
+    transform: rotate(294deg);
+}
+
+.trait_minute:nth-child(51) {
+    transform: rotate(306deg);
+}
+
+.trait_minute:nth-child(52) {
+    transform: rotate(312deg);
+}
+
+.trait_minute:nth-child(53) {
+    transform: rotate(318deg);
+}
+
+.trait_minute:nth-child(54) {
+    transform: rotate(324deg);
+}
+
+.trait_minute:nth-child(56) {
+    transform: rotate(336deg);
+}
+
+.trait_minute:nth-child(57) {
+    transform: rotate(342deg);
+}
+
+.trait_minute:nth-child(58) {
+    transform: rotate(348deg);
+}
+
+.trait_minute:nth-child(59) {
+    transform: rotate(354deg);
+}
+
