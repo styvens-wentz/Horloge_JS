@@ -23,7 +23,6 @@ const temps_seconde = function () {
     seconde.style.transform = 'rotate(' + rotate_seconde + 'deg)';
     minute.style.transform = 'rotate(' + rotate_minute + 'deg)';
     heure.style.transform = 'rotate(' + rotate_heure + 'deg)';
-    console.log(rotate_seconde);
 };
 
 
